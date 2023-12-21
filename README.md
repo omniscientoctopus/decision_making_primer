@@ -3,19 +3,26 @@ A high-level introduction to sequential decision making under uncertainty as par
 
 ## Installation
 
-You can run the bash script `setup.sh` to create a conda env and install the required packages:
+To create a conda environment and install the required dependencies, run the following command:
 
 ```bash
-bash setup.sh
+conda env create -f environment.yml
 ```
 
-or you can install the following packages using pip,
+It will create a conda environment `teaching` (name can be change in the `environment.yml` file). 
 
 ```bash
-pip install gym==0.26.1 matplotlib numpy jupyterlab seaborn
+conda activate teaching
 ```
-(this specific version of gym is required because functionality changes in the updated versions)
 
+## Presentations (for developers)
 
-## Presentations
-Last year, I used [RISE](https://rise.readthedocs.io/en/latest/) to convert the jupyter notebooks to slides, so that I could run the code within the slides. However, RISE is very brittle and I cannot find the correct version of RISE that worked. Next year, I will keep the presentation and notebooks seperate and simply present using two different windows on the screen.
+The Jupyter notebooks also serve as presentation slides via [RISE](https://rise.readthedocs.io/en/latest/). The required dependencies already included in `environment.yml`). To start the presentation, start a jupyter notebook,
+
+```bash
+jupyter notebook
+```
+
+and press `Alt-r` (or `⌥-r` on mac).
+
+For more instructions on using RISE, see [docs](https://rise.readthedocs.io/en/latest/usage.html).

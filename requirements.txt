@@ -1,6 +1,0 @@
-gym==0.26.1
-matplotlib
-numpy
-jupyterlab
-notebook
-seaborn
