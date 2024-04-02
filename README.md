@@ -9,7 +9,7 @@ To create a conda environment and install the required dependencies, run the fol
 conda env create -f environment.yml
 ```
 
-It will create a conda environment `dmu_env` (name can be change in the `environment.yml` file). 
+It will create a conda environment `dmu_env` (name can be changed in the `environment.yml` file). 
 
 ```bash
 conda activate dmu_env
