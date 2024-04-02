@@ -9,10 +9,10 @@ To create a conda environment and install the required dependencies, run the fol
 conda env create -f environment.yml
 ```
 
-It will create a conda environment `teaching` (name can be change in the `environment.yml` file). 
+It will create a conda environment `dmu_env` (name can be change in the `environment.yml` file). 
 
 ```bash
-conda activate teaching
+conda activate dmu_env
 ```
 
 ## Presentations (for developers)
@@ -22,7 +22,6 @@ The Jupyter notebooks also serve as presentation slides via [RISE](https://rise.
 ```bash
 jupyter notebook
 ```
-
 and press `Alt-r` (or `⌥-r` on mac).
 
 For more instructions on using RISE, see [docs](https://rise.readthedocs.io/en/latest/usage.html).

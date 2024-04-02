@@ -1,4 +1,4 @@
-name: teaching
+name: dmu_env
 channels:
   - defaults
   - snorfalorpagus
